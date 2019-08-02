@@ -1,0 +1,3 @@
+default: !!map
+  ss: !!str "ss"
+environments: !!map

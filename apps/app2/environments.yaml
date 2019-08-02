@@ -1,0 +1,8 @@
+default: !!map
+
+environments: !!map
+  prod: !!map
+  dev: !!map
+  stage: !!map
+  env1: !!map
+

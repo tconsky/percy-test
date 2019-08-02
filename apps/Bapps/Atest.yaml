@@ -1,0 +1,3 @@
+default: !!map
+  note: !!map
+environment: !!str "test"

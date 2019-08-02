@@ -1,0 +1,13 @@
+default: !!map
+  user: !!map
+    name: !!str "stand-gihub.com"
+    url: !!str "http://{{host}}:{{port}}/users/1"
+  host: !!str "localhost"
+  port: !!int 80
+  url: !!str "{{host}}"
+environments: !!map
+  test: !!map
+  dev: !!map
+    user: !!map
+      name: !!str "standlove"
+      url: !!str "http://{{host}}:{{port}}/users/test"

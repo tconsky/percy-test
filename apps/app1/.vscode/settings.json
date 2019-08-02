@@ -1,0 +1,4 @@
+{
+    "vscode-percy-editor.variablePrefix": "${",
+    "vscode-percy-editor.variableSuffix": "}"
+}

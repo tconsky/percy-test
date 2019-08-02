@@ -1,0 +1,8 @@
+default: !!map
+
+environments: !!map
+  dev1: !!map
+  dev2: !!map
+  dev3: !!map
+  dev4: !!map
+

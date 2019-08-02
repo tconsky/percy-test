@@ -1,0 +1,6 @@
+default: !!map
+  app: !!str "yaml-editor"
+environments: !!map
+  dev: !!map
+  test: !!map
+    app: !!str "yaml-editor"

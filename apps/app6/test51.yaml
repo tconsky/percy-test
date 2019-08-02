@@ -1,0 +1,106 @@
+default: !!map
+  A1: !!int 500
+  QA: !!seq
+    - !!int 123213
+    - !!int 12321
+    - !!int 234234
+    - !!int 324
+    - !!int 34534  # 435
+    - !!int 34543
+    - !!int 8987
+    - !!int 546
+    - !!int 646
+    - !!int 4564
+    - !!int 3453
+    - !!int 435
+    - !!int 435
+    - !!int 324
+    - !!int 123
+    - !!int 78
+    - !!int 546
+    - !!int 456
+    - !!int 456  # 546
+    - !!int 123213
+    - !!int 12321
+    - !!int 234234
+    - !!int 324
+    - !!int 34534  # 435
+    - !!int 34543
+    - !!int 8987
+    - !!int 546
+    - !!int 646
+    - !!int 4564
+    - !!int 3453
+    - !!int 435
+    - !!int 435
+    - !!int 324
+    - !!int 123
+    - !!int 78
+    - !!int 546
+    - !!int 456
+    - !!int 456  # 546
+    - !!int 123213
+    - !!int 12321
+    - !!int 234234
+    - !!int 324
+    - !!int 34534  # 435
+    - !!int 34543
+    - !!int 8987
+    - !!int 546
+    - !!int 646
+    - !!int 4564
+    - !!int 3453
+    - !!int 435
+    - !!int 435
+  QA22: !!seq
+    - !!int 324
+    - !!int 123
+    - !!int 78
+    - !!int 546
+    - !!int 456
+    - !!int 456  # 546
+  QA String: !!seq  # sdfdsfdsfd
+    - !!str "sjahd asdjhasdjkad asjd ajdsadjagdlj asda"
+    - !!str "wrwerewrew"
+    - !!str "sadasd"
+    - !!str "qwewqeq"
+    - !!str "asdasd"
+    - !!str "qwe"
+    - !!str "sa"
+    - !!str "sjahd asdjhasdjkad asjd ajdsadjagdlj asda"
+    - !!str "wrwerewr asja sdkasd jaksdaslkd aksld ew"
+    - !!str "sadas asd asdsad asd"
+    - !!str "qwewqe asd asdas q"
+    - !!str "a asd asd ad ad sdasd"
+    - !!str "qw asdasd ae"
+    - !!str "sd sada dasdaa"
+    - !!str "sjahd asdjhasdjkad asjd ajdsadjagdlj asda"
+    - !!str "wrwerewrew"
+    - !!str "sadasd"
+    - !!str "qwewqeq"
+    - !!str "asdasd"
+    - !!str "qwe"
+    - !!str "sa"
+  bool: !!seq
+    - !!bool false
+    - !!bool true
+    - !!bool false  # dfds
+    - !!bool false
+    - !!bool true
+    - !!bool false  # dfds
+    - !!bool false
+    - !!bool true
+    - !!bool false  # dfds
+    - !!bool false
+    - !!bool true
+    - !!bool false  # dfds
+    - !!bool false
+    - !!bool true
+    - !!bool false  # dfds
+    - !!bool false
+    - !!bool true
+    - !!bool false  # dfds
+    - !!bool false
+    - !!bool true
+    - !!bool false  # dfds
+environments: !!map

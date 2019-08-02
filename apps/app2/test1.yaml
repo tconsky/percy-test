@@ -1,0 +1,17 @@
+default: !!map
+  name: !!str "@standlove"
+  age: !!int 23  # comment1
+    # comment2
+    # comment3
+  flag: !!bool true
+  apps: !!seq
+    - !!str "app1"
+    - !!str "app2"
+    - !!str "app2"
+environments: !!map
+  dev: !!map
+    name: !!str "dev1"
+  prod: !!map
+    age: !!int 232
+  stage: !!map
+    flag: !!bool false

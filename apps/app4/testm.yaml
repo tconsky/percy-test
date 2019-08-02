@@ -1,0 +1,9 @@
+default: !!map
+  name: !!str "standlovexxxff"
+  flag: !!bool true
+  user: !!map  # test
+    name: !!str "yaml-user"
+environments: !!map
+  dev1: !!map
+    name: !!str "standlove1"
+  dev2: !!map

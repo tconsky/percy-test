@@ -1,0 +1,5 @@
+default: !!map
+  user: !!str "standlove"
+environments: !!map
+  test: !!map
+    user: !!str "standlove"

@@ -1,0 +1,3 @@
+default: !!map
+  user: !!str "test1x-github"
+environments: !!map
